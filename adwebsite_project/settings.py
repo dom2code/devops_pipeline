@@ -82,8 +82,16 @@ WSGI_APPLICATION = 'adwebsite_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'devops',
+        'USER': 'postgres',
+        'PASSWORD': 'Dom12345',
+        'HOST': 'x21168083.chwlezgyi7rm.eu-west-1.rds.amazonaws.com',
+        'port': '5432'
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
     }
 }
 
