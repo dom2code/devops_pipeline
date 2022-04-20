@@ -29,7 +29,7 @@ DEBUG = True
 # ALLOWED_HOSTS = ['x21168083-app-ad.eba-pbgccfwm.eu-west-1.elasticbeanstalk.com/']
 # ALLOWED_HOSTS = ['django-ad.eba-rz22jktq.us-west-2.elasticbeanstalk.com']
 #ALLOWED_HOSTS = [] #revert to this version for the production
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
