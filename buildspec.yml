@@ -8,11 +8,9 @@ phases:
             - pip install --upgrade pip
       # Install dependencies needed for running the static analysis
             - pip install -r requirements.txt
-      
-
-  pre_build:
-      commands:
-          - python --version
+    pre_build:
+        commands:
+            - python --version
       # - pylint $CODEBUILD_SRC_DIR/*.py --errors-only
       #- pylint $CODEBUILD_SRC_DIR/job-portal/*.py --errors-only
 
