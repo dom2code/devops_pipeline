@@ -25,10 +25,7 @@ SECRET_KEY = '8067z=z@56t@z^gf7s23fhn%5*c$!tdy8tf0i3$xr5w$-e%(%-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['1cc122f695094d1791e10827e3c12c29.vfs.cloud9.eu-west-1.amazonaws.com']
-# ALLOWED_HOSTS = ['x21168083-app-ad.eba-pbgccfwm.eu-west-1.elasticbeanstalk.com/']
-# ALLOWED_HOSTS = ['django-ad.eba-rz22jktq.us-west-2.elasticbeanstalk.com']
-#ALLOWED_HOSTS = [] #revert to this version for the production
+
 ALLOWED_HOSTS = ['*']
 
 
@@ -138,14 +135,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 MEDIA_URL = '/media/'
 
-# STATIC_URL = '/static/' 
-# if DEBUG:
-#   MEDIA_URL = '/media/'
-#   STATIC_ROOT=os.path.join(os.path.dirname(BASE_DIR),"static","static-only")
-#   MEDIA_ROOT=os.path.join(os.path.dirname(BASE_DIR),"static","media")
-# STATICFILES_DIRS=[
-#     os.path.join(os.path.dirname(BASE_DIR), "static", "static")
-#   ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
